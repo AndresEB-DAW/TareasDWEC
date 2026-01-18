@@ -1,0 +1,113 @@
+/* Body centrado */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Contenedor principal */
+.contendor {
+    width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/* Titulo */
+.titulo {
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgb(170, 23, 23);
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* Teclado */
+.teclado {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid rgb(170, 23, 23);
+    margin-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+/* Botones numéricos */
+.boton {
+    height: 30px;
+    width: 40px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgb(23, 77, 170);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.botonResultado {
+    height: 30px;
+    width: 40px;
+    margin: 10px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgb(23, 77, 170);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Espacio de sorteo */
+.sorteo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgb(170, 23, 23);
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+
+/* Botón Sorteo */
+.btn-sorteo {
+    height: 60px;
+    background-color: #dadada;
+    border: 1px solid rgb(132, 132, 132);
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-wrap: wrap;
+}
+
+/* Mensaje */
+.mensaje {
+    display: flex;
+    margin-top: 5px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgb(170, 23, 23);
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 10px;
+}
+
+/* Botones seleccionados */
+.seleccionado {
+    color: red;
+    font-weight: bold;
+}
