@@ -1,0 +1,35 @@
+/* Formato básico tabla */
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+/* Quitamos el formato th y lo dejamos como si fuese un td */ 
+table th {
+    text-align: left;
+    font-weight: normal;
+}
+/* Formato para los bordes */ 
+table th, table tr, table td {
+    border: 1px solid black;
+    padding: 4px;
+    padding-right: 50px;
+}
+/* Color de fondo para la cabecera */ 
+table th {
+    background-color: lightgray;
+}
+/* Formtato para el cebreado */
+.fila-par{
+    background-color: rgb(218, 245, 255);
+}
+/* Formato caja de texto input */ 
+input {
+    font-size: 20px;
+    padding: 4px;
+    margin-right: 10px;
+}
+/* Formato para el botón buscar */
+button {
+    font-size: 20px;
+    padding: 4px 10px;
+}
